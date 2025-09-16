@@ -3,25 +3,36 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color:black;
 }
-
+.title{
+    background-color: #333;
+    color: rgb(113, 9, 9);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Header section */
 #head {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
+    
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: rgb(113, 9, 9);
     color: white;
     padding: 10px;
     margin: 5px;
     border: none;
     cursor: pointer;
     font-size: 16px;
+    border-radius: 20px;
 }
 
 button:hover {
@@ -78,7 +89,7 @@ button:hover {
 }
 
 .card-header .rating {
-    background-color: #f4b400;
+    background-color:rgb(120, 16, 16);
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 14px;
